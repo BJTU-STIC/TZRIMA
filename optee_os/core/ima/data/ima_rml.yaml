@@ -1,0 +1,23 @@
+entries:
+    
+  # TA: optee_example_hello_world
+  - uuid: "8aaaf200-2450-11e4-abe2-0002a5d5c51b"
+    # error hash: "0396441bcb16cf9235f67eb06ce3022d115d8f6b2b7b6a15840a371022882940"
+    #hash: "0396441bcb16cf9235f67eb06ce3022d115d8f6b2b7b6a15840a371022882942"
+    hash: "42ac298c884e97ddfe525bb2c1726e117fea46c1ad653230e6036220dac82944"
+    min_version: 40
+    description: "optee_example_hello_world"
+    
+  # TA: optee_example_secure_storage
+  - uuid: "f4e750bb-1437-4fbf-8785-8d3580c34994"
+    hash: "bdd3ef14845db998354f155699fade9020aa0d7fc128a84dccab70ad9536c069"
+    #hash: "ad5ed3cc0d9d3eed8fa363854d4dedc3544a2fce2addee8fb36f4ebe70b9ca4b"
+    min_version: 1
+    description: "optee_example_secure_storage"
+
+  # TA: optee_example_acipher
+  - uuid: "a734eed9-d6a1-4244-aa50-7c99719e7b7b"
+    hash: "11bf200202eb39e1607aa0118f98cc358027f62108ab4375c9072bb5bedd6eb1"
+    #hash: "44e15702d3db69dc29c24334fe259e34ac1a49aa3c1c3284574d7b8764171727"
+    min_version: 1
+    description: "optee_example_acipher"

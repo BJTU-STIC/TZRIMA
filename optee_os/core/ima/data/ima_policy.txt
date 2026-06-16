@@ -1,0 +1,24 @@
+measure event_type=KERNEL_BOOT
+measure event_type=PERIODIC_KERNEL_CHECK interval=30000
+measure event_type=STATIC_COMPONENT_LOAD
+appraise event_type=TA_LOAD uuid=8aaaf200-2450-11e4-abe2-0002a5d5c51b interval=300
+appraise event_type=TA_LOAD uuid=f4e750bb-1437-4fbf-8785-8d3580c34994 interval=300
+appraise event_type=TA_LOAD uuid=a734eed9-d6a1-4244-aa50-7c99719e7b7b
+#appraise event_type=TA_LOAD uuid=527f1a47-b92c-4a74-95bd-72f19f4a6f74
+#appraise event_type=TA_LOAD uuid=be807bbd-81e1-4dc4-bd99-3d363f240ece
+#appraise event_type=TA_LOAD uuid=87bb6ae8-4b1d-49fe-9986-2b966132c309
+#appraise event_type=TA_LOAD uuid=71855bba-6055-4293-a63f-b0963a737360
+measure event_type=TA_COMMAND_INVOKE uuid=8aaaf200-2450-11e4-abe2-0002a5d5c51b
+measure event_type=TA_LOAD
+measure event_type=TA_PROPERTIES_CHECK
+measure event_type=SYSCALL syscall_id=0x00000901
+measure event_type=SYSCALL syscall_id=0x00000902
+measure event_type=SYSCALL syscall_id=0x00000903
+measure event_type=SYSCALL syscall_id=0x00000B04
+measure event_type=SYSCALL syscall_id=0x00000B01
+measure event_type=SYSCALL syscall_id=0x00000804
+measure event_type=SYSCALL syscall_id=0x00000807
+measure event_type=SYSCALL syscall_id=0x00001103
+measure event_type=SYSCALL syscall_id=0x00001104
+measure event_type=SYSCALL syscall_id=0x00000403
+measure event_type=SYSCALL syscall_id=0x00000402
